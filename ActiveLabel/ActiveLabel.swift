@@ -439,8 +439,8 @@ typealias ElementTuple = (range: NSRange, element: ActiveElement, type: ActiveTy
         }
         
         textStorage.addAttributes(attributes, range: selectedElement.range)
-        
-        setNeedsDisplay()
+//
+//        setNeedsDisplay()
     }
     
     fileprivate func element(at location: CGPoint) -> ElementTuple? {
